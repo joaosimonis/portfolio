@@ -378,8 +378,16 @@ footer div.line-footer p a {
     
      /* Cabeçalho */
 
-     header nav.navbar, header div.div-contato {
+    header nav.navbar, header div.div-contato {
         display: none;
+    }
+
+    header {
+        padding: 40px 4% 20px 4%;
+    }
+
+    header a {
+        font-size: 20px;
     }
 
     /* Topo do site */
@@ -389,7 +397,7 @@ footer div.line-footer p a {
     }
 
     section.topo-do-site {
-        padding: 20px 8% 0 8%;
+            padding: 0px 8% 0px 8%;
     }    
 
     section.topo-do-site div.flex {
@@ -412,7 +420,7 @@ footer div.line-footer p a {
     /* Sobre mim */
 
     section.sobre {
-        padding: 60px 8% 60px 8%;
+        padding: 60px 8% 10px 8%;
     }
 
     section.sobre div.flex {
@@ -420,7 +428,7 @@ footer div.line-footer p a {
     }
 
     section.sobre div.img-sobre img {
-        width: 100%;
+        display: none;
     }
 
     section.sobre div.txt-sobre h2 {
