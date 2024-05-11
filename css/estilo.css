@@ -210,18 +210,18 @@ section.sobre div.txt-sobre p {
     text-align: justify;
 }
 
-section.sobre div.txt-sobre div.logo-icones button {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+section.sobre div.txt-sobre div.curriculo button {
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
     border: none;
     background-color: rgb(144, 97, 255);
-    font-size: 22px;
+    font-size: 18px;
+    color: white;
     cursor: pointer;
-    margin: 0 5px;
 }
 
-section.sobre div.txt-sobre div.logo-icones button:hover {
+section.sobre div.txt-sobre div.curriculo button:hover {
     box-shadow: 0 0 8px rgb(144, 97, 255);
     transform: scale(1.05);
     transition: .2s;
@@ -428,7 +428,7 @@ footer div.line-footer p a {
         font-size: 30px;
     }
 
-    section.sobre div.txt-sobre div.logo-icones {
+    section.sobre div.txt-sobre div.curriculo {
         text-align: center;
     }
 
